@@ -461,7 +461,7 @@ jobs:
             mingw-w64-libass \
             mingw-w64-vulkan-headers mingw-w64-vulkan-icd-loader \
             mingw-w64-shaderc mingw-w64-spirv-cross mingw-w64-lcms2 mingw-w64-zlib \
-            mingw-w64-libdvdnav mingw-w64-libdvdread
+            mingw-w64-libdvdnav mingw-w64-libdvdread mingw-w64-libsoxr
           # ^ DVD playback (folder + ISO) from Martchus; libdvdnav -> libdvdread
           # read images natively. libbluray is built from source with embedded
           # libudfread in a later step (Martchus's lacks udfread = BD folders
